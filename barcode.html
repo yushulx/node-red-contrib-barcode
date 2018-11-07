@@ -3,11 +3,12 @@
         category: 'Dynamsoft',
         color: '#a6bbcf',
         defaults: {
-            name: {value:""}
+            name: {value:""},
+            license: {value:""},
         },
         inputs:1,
         outputs:1,
-        icon: "file.png",
+        icon: "function.png",
         label: function() {
             return this.name||"barcode";
         }
@@ -17,8 +18,12 @@
 <script type="text/x-red" data-template-name="barcode">
     <div class="form-row">
         <label for="node-input-name"><i class="icon-tag"></i> Name</label>
-        <input type="text" id="node-input-name" placeholder="Name">
+        <input type="text" id="node-input-name" placeholder="Barcode Reader">
     </div>
+    <div class="form-row">
+		<label for="node-input-license"><i class="icon-tag"></i> License</label>
+		<input type="text" id="node-input-license" placeholder="https://www.dynamsoft.com/CustomerPortal/Portal/Triallicense.aspx">
+	</div>
 </script>
 
 <script type="text/x-red" data-help-name="barcode">

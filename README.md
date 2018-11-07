@@ -10,6 +10,14 @@ cd %userprofile%\.node-red
 npm install node-red-contrib-barcode
 ```
 
+## SDK License
+Get the [free trial license](https://www.dynamsoft.com/CustomerPortal/Portal/Triallicense.aspx).
+
+For example:
+```
+t0068NQAAACqUjZa21C+W7fRdPkf2FRFRr+QpfVC2tDsl/8t25TzYCNxl5s0OkuwFgEMGNfN95Z0HYQ55ROi1px9JqVAP7/c=
+```
+
 ## Usage
 If the default port `1880` cannot work, change it to `18800` in `%userprofile%\.node-red\settings.js`.
 
@@ -22,5 +30,12 @@ node-red
 In web editor, add `inject node`, `file node`, `barcode node` and `debug node`. You can set the image path in `file node`.
 
 ![Node RED barcode](https://www.codepool.biz/wp-content/uploads/2018/11/node-red-debug.PNG)
+
+Click barcode node to set a valid license:
+
+![Barcode license](https://www.codepool.biz/wp-content/uploads/2018/11/node-red-barcode-license.PNG)
+
+
+Run the app:
 
 ![Node RED barcode results](https://www.codepool.biz/wp-content/uploads/2018/11/node-red-barcode-results.PNG)
