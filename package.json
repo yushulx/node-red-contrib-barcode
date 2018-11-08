@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-barcode",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Node-RED project with Dynamsoft Barcode Reader for Windows.",
   "node-red": {
     "nodes": {
@@ -8,11 +8,11 @@
     }
   },
   "dependencies": {
-    "dbr": "^6.3.2"
+    "dbr": "^6.4.0"
   },
   "repository": {
-		"type": "git",
-		"url": "git+https://github.com/yushulx/node-red-contrib-barcode.git"
+    "type": "git",
+    "url": "git+https://github.com/yushulx/node-red-contrib-barcode.git"
   },
   "keywords": [
     "barcode",

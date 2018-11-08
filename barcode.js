@@ -5,6 +5,7 @@ module.exports = function(RED) {
   function BarcodeNode(config) {
     RED.nodes.createNode(this, config);
     this.license = config.license;
+    this.template = config.template;
     var node = this;
     node.on('input', function(msg) {
       if (msg.filename) {
@@ -12,7 +13,7 @@ module.exports = function(RED) {
         dbr.decodeFileAsync(msg.filename, barcodeTypes, function(err, results) {
           msg.payload = results;
           node.send(msg);
-        }, '');
+        }, node.template);
       } else {
         msg.payload = msg.payload.toLowerCase();
         node.send(msg);
