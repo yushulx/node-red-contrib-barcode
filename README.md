@@ -31,10 +31,23 @@ In web editor, add `inject node`, `file node`, `barcode node` and `debug node`. 
 
 ![Node RED barcode](https://www.codepool.biz/wp-content/uploads/2018/11/node-red-debug.PNG)
 
-Click barcode node to set a valid license:
+Click barcode node to set a valid license and barcode parameter template:
 
 ![Barcode license](https://www.codepool.biz/wp-content/uploads/2018/11/node-red-barcode-license.PNG)
 
+Here is an example of [template](https://www.dynamsoft.com/help/Barcode-Reader/devguide/Template/ImageParameters/BarcodeFormatIds.html):
+
+```json
+{
+  "ImageParameter": {
+    "Name": "Custom_143301_827",
+    "BarcodeFormatIds": [
+      "OneD"
+    ]
+  }
+}
+```
+**If you do not set a template, the default template will be used.**
 
 Run the app:
 
