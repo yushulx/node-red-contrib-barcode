@@ -52,3 +52,6 @@ Here is an example of [template](https://www.dynamsoft.com/help/Barcode-Reader/d
 Run the app:
 
 ![Node RED barcode results](https://www.codepool.biz/wp-content/uploads/2018/11/node-red-barcode-results.PNG)
+
+## Blog
+[How to Use Node RED with Barcode Module on Windows 10](https://www.codepool.biz/node-red-barcode-windows.html)
