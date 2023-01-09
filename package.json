@@ -1,14 +1,14 @@
 {
   "name": "node-red-contrib-barcode",
-  "version": "0.0.3",
-  "description": "A Node-RED project with Dynamsoft Barcode Reader for Windows.",
+  "version": "0.1.0",
+  "description": "A Node-RED project for decoding barcode and QR code",
   "node-red": {
     "nodes": {
       "barcode": "barcode.js"
     }
   },
   "dependencies": {
-    "dbr": "^6.4.0"
+    "barcode4nodejs": "^9.6.10"
   },
   "repository": {
     "type": "git",
