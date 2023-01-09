@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-barcode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Node-RED project for decoding barcode and QR code",
   "node-red": {
     "nodes": {
@@ -16,8 +16,17 @@
   },
   "keywords": [
     "barcode",
+    "qrcode",
+    "pdf417",
+    "datamatrix",
+    "aztec",
+    "maxicode",
+    "code39",
+    "code128",
+    "code93",
+    "dynamsoft",
     "node-red",
-    "windows"
+    "node-red-contrib"
   ],
   "author": "yushulx",
   "license": "MIT"
