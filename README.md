@@ -62,7 +62,7 @@ In web editor, add `inject node`, `file node`, `barcode node` and `debug node`. 
 
 ![Node RED barcode](https://www.dynamsoft.com/codepool/img/2018/11/node-red-debug.PNG)
 
-Click barcode node to set a [valid license of Dynamsoft Barcode Reader](https://www.dynamsoft.com/barcode-reader/docs/core/parameters/structure-and-interfaces-of-parameters.html?ver=latest) and barcode [parameter template](https://www.dynamsoft.com/barcode-reader/docs/core/parameters/structure-and-interfaces-of-parameters.html?ver=latest):
+Click barcode node to set a [valid license of Dynamsoft Barcode Reader](https://www.dynamsoft.com/customer/license/trialLicense?product=dbr) and barcode [parameter template](https://www.dynamsoft.com/barcode-reader/docs/core/parameters/structure-and-interfaces-of-parameters.html?ver=latest):
 
 ![Barcode license](https://www.dynamsoft.com/codepool/img/2018/11/node-red-barcode-license.PNG)
 
